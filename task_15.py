@@ -8,7 +8,7 @@
 n = int(input('Введите число: '))
 a = 0
 b = 1
-result = [0]
+result = []
 
 for i in range(n):
     a, b = b, a + b
@@ -18,4 +18,4 @@ new_result = result[:]
 for i in range(1, len(result), 2):
     new_result[i] = -new_result[i]
 new_result = new_result[::-1]
-print(new_result + result)
+print(new_result + [0] + result)
