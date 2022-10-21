@@ -76,4 +76,4 @@ def get_del_find():
                 # with open('people.csv', 'a', encoding = 'UTF-8') as file:
                 #     file.writelines(data)
         if oper == 2: 
-            get_see() 
+            get_see()
