@@ -1,3 +1,4 @@
+
 def get_input(lst):
     data = []
     for i in lst:
