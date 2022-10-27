@@ -1,3 +1,3 @@
-import interface
+import controller
 
-interface.input_inter()
+controller.directory()
